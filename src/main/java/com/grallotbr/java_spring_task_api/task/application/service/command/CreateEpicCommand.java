@@ -1,5 +1,6 @@
 package com.grallotbr.java_spring_task_api.task.application.service.command;
 
-public record CreateEpicCommand() {
+public record CreateEpicCommand(String name,
+                                String color) {
 
 }
