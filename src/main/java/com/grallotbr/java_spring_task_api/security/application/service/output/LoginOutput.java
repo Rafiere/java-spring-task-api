@@ -1,5 +1,6 @@
 package com.grallotbr.java_spring_task_api.security.application.service.output;
 
-public record LoginOutput() {
+public record LoginOutput(String accessToken,
+						  String refreshToken) {
 
 }
